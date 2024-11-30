@@ -10,7 +10,6 @@ print(ive)
 ive ="장원영"
 print(ive)
 
-<<<<<<< HEAD
 print(f"나는 {ive}입니다.")
 print("나는 ",ive,"입니다.",sep="")
 print("나는 "+ive+"입니다.")
@@ -32,3 +31,19 @@ a="ive"
 print(type(a))
 
 print("What\'s your name?")
+
+num = 10
+b_num = 0b1010
+x_num = 0xA
+
+print(num)
+print(b_num)
+print(x_num)
+
+print(bin(10))
+print(hex(10))
+
+print(ord('0'))
+print(ord('A'))
+print(chr(48))
+print(chr(65)) #코딩테스트에서 아스키코드 종종 씀
