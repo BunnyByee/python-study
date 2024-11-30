@@ -10,6 +10,7 @@ print(ive)
 ive ="장원영"
 print(ive)
 
+<<<<<<< HEAD
 print(f"나는 {ive}입니다.")
 print("나는 ",ive,"입니다.",sep="")
 print("나는 "+ive+"입니다.")
