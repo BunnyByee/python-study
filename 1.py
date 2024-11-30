@@ -9,3 +9,5 @@ ive = "I AM"
 print(ive)
 ive ="장원영"
 print(ive)
+
+# 하 커밋 연습중입니다아.
