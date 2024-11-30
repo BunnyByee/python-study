@@ -21,6 +21,7 @@ first = d.index("서")+1
 print(first + d[first:].index("서"))
 d.count("서") # 개수 세기
 
+# 실습 4
 rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'purple']
 # 1. 2번 인덱스값 출력
 print(rainbow[2])
