@@ -1,21 +1,10 @@
-# # 과제1
-
-# n = int(input("정수 입력 : "))
-# n_list = []
-# for i in range (1,n+1) :
-#     n_list.append(i)
-# print(n_list)
-
-# print(n_list[0::2]) # 홀수
-# print(n_list[1::2]) # 짝수
-
-# # 과제 2
-# vending_machine = ['게토레이', '레쓰비', '생수', '이프로']
-# juice = input("마시고 싶은 음료? ")
-# if juice in vending_machine :
-#     print(f"{juice} 드릴게요")
-# else :
-#     print(f"{juice}는 지금 없네요")
+# 과제 2
+vending_machine = ['게토레이', '레쓰비', '생수', '이프로']
+juice = input("마시고 싶은 음료? ")
+if juice in vending_machine :
+    print(f"{juice} 드릴게요")
+else :
+    print(f"{juice}는 지금 없네요")
 
 # 과제 3
 vending_machine = ['게토레이', '게토레이', '레쓰비', '레쓰비', '생수', '생수', '생수', '이프로']
