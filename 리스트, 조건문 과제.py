@@ -29,11 +29,12 @@ elif user == '2' or user == '주인'  :
     if work == '1' or work == '추가'  :
         print("남은 음료수:",vending_machine,"\n")
         juice = input("추가할 음료수? ")
-        if vending_machine.count(juice) != 0 : # 중복O => 위치에 값 추가
-            vending_machine.insert(vending_machine.index(juice),juice)
-        else : # 중복X => 새로 추가 후 정렬
-            vending_machine.append(juice)
-            vending_machine.sort()
+        # if vending_machine.count(juice) != 0 : # 중복O => 위치에 값 추가
+        #     vending_machine.insert(vending_machine.index(juice),juice)
+        # else : # 중복X => 새로 추가 후 정렬
+        # 굳이 이렇게 할 필요없고 그냥 sort 만 사용하면 됨!
+        vending_machine.append(juice)
+        vending_machine.sort()
         print("추가 완료")
         print("남은 음료수:",vending_machine,"\n")
     
