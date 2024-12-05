@@ -1,49 +1,49 @@
-# def f(x) :
-#     result= x**2 + 2*x +1
-#     return result
+def f(x) :
+    result= x**2 + 2*x +1
+    return result
 
-# print(f(3))
+print(f(3))
 
-# def sayHi():
-#     print('안녕하세용')
-#     print('hello')
+def sayHi():
+    print('안녕하세용')
+    print('hello')
 
-# sayHi()
+sayHi()
 
-# x = 10 # 전역변수
-# def func() :
-#     x = 20 # 지역변수
-#     print(x)
+x = 10 # 전역변수
+def func() :
+    x = 20 # 지역변수
+    print(x)
 
-# func()
-# print(x)
+func()
+print(x)
 
-# def func2() :
-#     print(x)
+def func2() :
+    print(x)
 
-# func2()
+func2()
 
-# def func() :
-#     x = 20
-#     print("func",x)
-#     func2()
+def func() :
+    x = 20
+    print("func",x)
+    func2()
 
-# func()
+func()
 
-# def func3(x) :
-#     print("func",x)
+def func3(x) :
+    print("func",x)
 
-# func3(3)
+func3(3)
 
-# # 실습 1
-# def func(x,y) :
-#     if x == y :# 두 수가 같으면
-#         print(x*y) # 곱하기
-#     else : # 아니면
-#         print(x + y) # 더하기
+# 실습 1
+def func(x,y) :
+    if x == y :# 두 수가 같으면
+        print(x*y) # 곱하기
+    else : # 아니면
+        print(x + y) # 더하기
 
-# func(2,2)
-# func(5,3)
+func(2,2)
+func(5,3)
 
 def func2(x,y) :
     if x*y < 20000 :
