@@ -114,5 +114,30 @@ for i in range(len(photo)) :
 
 print(answer)
 
+# 크기가 작은 부분 문자열
+# https://school.programmers.co.kr/learn/courses/30/lessons/147355?language=python3
+
+# 문자열 길이 n
+# 부분 문자열 길이 k
+
+# k -> 1, n개의 문자가 생김
+# k -> 2, n-1 개의 문자
+# k -> 3, n-2 개의 문자
+
+answer = 0
+
+t = '3141592'
+p = '271'
+
+n = len(t)
+k = len(p)
+
+for i in range(n-k+1) :
+    if t[i:i+k] <= p :
+        answer += 1
+
+print(answer)
+
+
 
 
