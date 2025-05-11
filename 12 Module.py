@@ -1,4 +1,4 @@
-import calc_module
+import modules.calc_module as calc_module
 
 print(calc_module.add(1,2))
 print(calc_module.sub(1,2))
@@ -7,12 +7,12 @@ print(calc_module.div(1,2))
 
 
 # 특정 함수만 import
-from calc_module import add
+from modules.calc_module import add
 print(add(1,2))
 # calc_module.add() # 안됨
 
 # 모듈명 간단하게 바꿔서 사용 가능
-import calc_module as cm
+import modules.calc_module as cm
 print(cm.add(1,2))
 
 

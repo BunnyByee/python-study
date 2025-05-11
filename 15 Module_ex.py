@@ -12,5 +12,5 @@ print(name)
 cook()
 eat()
 
-import bbb.cm2
-print(bbb.cm2.add(1,2))
+import module_ex.cm2
+print(module_ex.cm2.add(1,2))
